@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My 90s Blog</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f0f0f0;
+            color: #000;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/dark_crosshatch.png');
+        }
+
+        header {
+            background-color: #0000FF;
+            color: white;
+            padding: 20px 0;
+            font-size: 2em;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: blue;
+            text-shadow: 2px 2px 10px #ffff00;
+        }
+
+        nav {
+            background-color: #ff00ff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 5px;
+            background-color: #0000FF;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #ffff00;
+        }
+
+        .content {
+            margin: 20px;
+            text-align: left;
+            background-color: white;
+            border: 2px solid #0000FF;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #0000FF;
+            color: white;
+            padding: 10px;
+            font-size: 1em;
+            margin-top: 20px;
+        }
+
+        .guestbook {
+            background-color: #ffff00;
+            padding: 15px;
+            border-radius: 10px;
+            border: 2px solid #ff00ff;
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .guestbook form {
+            background-color: #ff00ff;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #0000FF;
+        }
+
+        .guestbook input, .guestbook textarea {
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #0000FF;
+            border-radius: 5px;
+        }
+
+        .guestbook button {
+            padding: 10px 20px;
+            background-color: #0000FF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My 90s Blog!</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#blog-posts">Blog Posts</a>
+        <a href="#guestbook">Guestbook</a>
+    </nav>
+
+    <div class="content" id="about">
+        <h2>About Me</h2>
+        <p>Hi there! My name is [Your Name], and this is my blog. I love tech, games, and all things retro! This blog is a collection of my thoughts, favorite links, and random musings. Thanks for visiting!</p>
+    </div>
+
+    <div class="content" id="blog-posts">
+        <h2>Latest Blog Posts</h2>
+        <p><strong>Post 1:</strong> Why I Love Tetris</p>
+        <p>I've been playing Tetris for hours! There's just something about the challenge and the music that makes it addicting. Check out my tips for getting a high score!</p>
+
+        <p><strong>Post 2:</strong> The Best 90s Websites</p>
+        <p>Throwback to my favorite websites: Geocities, Angelfire, and of course, Yahoo! What websites did you visit in the 90s?</p>
+    </div>
+
+    <div class="guestbook" id="guestbook">
+        <h2>Guestbook</h2>
+        <p>Leave a comment or sign my guestbook!</p>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <textarea name="message" placeholder="Write a message..." rows="4" cols="50" required></textarea><br>
+            <button type="submit">Sign Guestbook</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 My 90s Blog. All rights reserved. | Powered by Netscape</p>
+    </footer>
+</body>
+</html>
